@@ -34,24 +34,7 @@ body {
     margin-left: 63px;
 }
 
-.forgot-password {
-    cursor: pointer;
-    text-align: center;
-    font-size: 15px;
-    color: rgb(88, 88, 88);
-    text-decoration: underline;
-    transition: opacity 0.15s;
-}
-
-.forgot-password:hover {
-    opacity: 0.8;
-}
-
-.forgot-password:active {
-    opacity: 0.6;
-}
-
-.sign-in {
+.sign-up {
     cursor: pointer;
     font-size: 25px;
     font-family: Titan One, Arial;
@@ -65,29 +48,5 @@ body {
     background-color: rgb(9, 185, 0);
     transition: opacity 0.15s;
     margin-left: 75px;
-}
-
-.sign-in:hover {
-    opacity: 0.8;
-}
-  
-.sign-in:active {
-    opacity: 0.6;
-}
-
-.sign-up {
-    cursor: pointer;
-    text-align: center;
-    font-size: 15px;
-    color: rgb(88, 88, 88);
-    text-decoration: underline;
-    transition: opacity 0.15s;
-}
-
-.sign-up:hover {
-    opacity: 0.8;
-}
-
-.sign-up:active {
-    opacity: 0.6;
+    margin-top: 40px;
 }
