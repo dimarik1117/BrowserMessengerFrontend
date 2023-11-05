@@ -1,0 +1,93 @@
+body {
+    background-color: aqua;
+}
+
+.preview {
+    width: 300px;
+    height: 330px;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 3px solid rgb(8, 75, 4);
+    border-radius: 20px;
+    background-color: rgb(139, 246, 210);
+}
+
+.title {
+    text-align: center;
+    font-family: Titan One, Arial;
+    font-size: 33px;
+    color: rgb(8, 75, 4);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputs {
+    border-radius: 20px;
+    border-color: rgb(8, 75, 4);
+    background-color: rgb(142, 229, 137);
+    margin-top: 10px;
+    margin-left: 63px;
+}
+
+.forgot-password {
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
+    transition: opacity 0.15s;
+}
+
+.forgot-password:hover {
+    opacity: 0.8;
+}
+
+.forgot-password:active {
+    opacity: 0.6;
+}
+
+.sign-in {
+    cursor: pointer;
+    font-size: 25px;
+    font-family: Titan One, Arial;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 28px;
+    padding-right: 28px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(8, 75, 4);
+    background-color: rgb(9, 185, 0);
+    transition: opacity 0.15s;
+    margin-left: 75px;
+}
+
+.sign-in:hover {
+    opacity: 0.8;
+}
+  
+.sign-in:active {
+    opacity: 0.6;
+}
+
+.sign-up {
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(88, 88, 88);
+    text-decoration: underline;
+    transition: opacity 0.15s;
+}
+
+.sign-up:hover {
+    opacity: 0.8;
+}
+
+.sign-up:active {
+    opacity: 0.6;
+}
